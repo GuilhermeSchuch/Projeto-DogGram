@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>DogGram</title>
+	    <meta name="author" content="Guilherme Schuch">
+	    <meta name="description" content="Adote um Pet">
+	    <meta name="keywords" content="Pet, Adotar">
+	    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<img src="images/dog.jpeg" alt="Cachorro">
+
+			<div id="header-div">
+				<h1>Adote um melhor amigo</h1>
+				<h2>Ligue:(51)955224325</h2>
+			</div>
+		</header>
+        
+        <main>
+            <div>
+                <header>
+                    <img src="images/logo.png" alt="Logo Cachorro">
+                    <h1>DogGram</h1>
+                </header>
+            </div>
+            
+            <form action="#" method="POST">
+                <fieldset id="fieldset01">
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Nome Completo" name="q" id="nome" autofocus>
+                    
+                    <label for="email">E-Mail</label>
+                    <input type="email" placeholder="Email" name="e" id="email">
+                    
+                    <div class="radios01">
+                        <p>Especificações</p>
+
+                        <label><input type="radio" name="radio1" value="M">Macho</label>
+
+                        <label><input type="radio" name="radio1" value="F">Fêmea</label>
+                    </div>
+                        
+                    <div class="radios02">
+                        <p>Idade</p>
+
+                        <label><input type="radio" name="radio2" value="N" id="jovem">1-8 Meses</label> <br>
+
+                        <label id="mediano"><input type="radio" name="radio2" value="Me" id="adolescente">1-4 Anos</label>
+                        
+                        <label id="velho"><input type="radio" name="radio2" value="V" id="adulto">5 Anos pra cima</label>
+                    </div>
+                    
+                </fieldset>
+                    
+                <fieldset id="fieldset02">
+                    <p>Raça</p>
+                    
+                    <label><input type="radio" name="raca" value="viralata" id="viralata">Vira-lata</label>
+                    
+                    <label class="label"><input type="radio" name="raca" value="labrador" class="input">Labrador</label>
+                    
+                    <label class="label"><input type="radio" name="raca" value="buldogue" class="input">Buldogue</label>
+                    
+                    <label class="label"><input type="radio" name="raca" value="husky" class="input">Husky</label>
+                    
+                    <label class="label"><input type="radio" name="raca" value="rottweiler" class="input">Rottweiler</label>
+                    
+                    <label class="label"><input type="radio" name="raca" value="dobermann" class="input">Dobermann</label>
+                    
+                    <label class="label"><input type="radio" name="raca" value="dalmata" class="input">Dálmata</label>         
+                </fieldset>
+                
+                <input type="submit" value="Enviar" id="botao">
+                
+                <input type="reset" value="Resetar" id="reset">
+            </form>
+        </main>
+	</body>
+</html>

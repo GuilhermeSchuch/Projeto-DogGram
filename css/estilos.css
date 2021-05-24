@@ -1,0 +1,199 @@
+body{
+	background-color: rgba(78, 35, 21, 0.9);
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../font/Quicksand-Regular.otf);
+}
+
+#header{
+	width: 42.1%;
+	position: relative;
+}
+
+#header img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+
+#header-div{
+	position: absolute;
+	top: 505px;
+	left: 16%;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgba(204, 204, 204, 0.4);
+}
+
+#header-div h1{
+	font-family: quicksand, sans-serif;
+}
+
+#header-div h2{
+	text-align: center;
+}
+
+main{
+    position: relative;
+}
+
+main div header{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    border-radius: 15px;
+	background-color: rgba(204, 204, 204, 0.4);
+}
+
+main div header img{
+    width: 200px;
+}
+
+main div header h1{
+    font-family: quicksand, sans-serif;
+    float: right;
+    font-size: 40px;
+    padding-right: 30px;
+    margin-left: -40px;
+    margin-top: 45px;
+}
+
+#fieldset01{
+    position: absolute;
+    right: 500px;
+    top: 200px;
+    font-family: quicksand, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+	background-color: rgba(204, 204, 204, 0.4);
+}
+
+input{
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+input:focus{
+    background: #ddd;
+}
+
+.radios01 input{
+    display: inline-block;
+}
+
+.radios01 label, p{
+    font-size: 20px;
+    font-family: quicksand, sans-serif;
+}
+
+.radios01 p{
+    border-bottom: 1px dotted black;
+    box-sizing: border-box;
+}
+
+.radios02 p{
+    border-bottom: 1px dotted black;
+    box-sizing: border-box;
+}
+
+.radios02 label, p{
+    font-size: 20px;
+    font-family: quicksand, sans-serif;
+}
+
+#jovem{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#mediano{
+    display: inline-flex;
+}
+
+#adolescente{
+    margin-right: 5px;
+}
+
+#velho{
+    display: block;
+}
+
+#adulto{
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+#fieldset02{
+    border-radius: 15px;
+    border: none;
+	background-color: rgba(204, 204, 204, 0.4);
+    width: 196px;
+    position: absolute;
+    right: 60px;
+    top: 200px;
+}
+
+#fieldset02 p{
+    border-bottom: 1px dotted black;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: quicksand, sans-serif;
+}
+
+#fieldset02 label{
+    font-size: 20px;
+    font-family: quicksand, sans-serif;
+}
+
+#viralata{
+    display: inline-block;
+}
+
+#labrador{
+    display: inline-flex;
+}
+
+#labrador2{
+    display: block;
+}
+
+.label{
+    display: inline-flex;
+}
+
+.input{
+    display: block;
+}
+
+#botao{
+    font-size: 20px;
+    font-family: quicksand, sans-serif;
+    border-radius: 10px;
+    border: none;
+	background-color: rgba(204, 204, 204, 0.4);
+    position: absolute;
+    right: 190px;
+    top: 450px;
+}
+
+#reset{
+    font-size: 20px;
+    font-family: quicksand, sans-serif;
+    border-radius: 10px;
+    border: none;
+	background-color: rgba(204, 204, 204, 0.4);
+    position: absolute;
+    right: 70px;
+    top: 450px;
+}
+
